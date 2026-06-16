@@ -1,37 +1,254 @@
-# Data_Visualization
-Data Visualization with Matplotlib & Seaborn
-Overview
+# Data Visualization and Exploratory Data Analysis
 
-Data visualization is a critical step in data analysis, helping to explore, understand, and communicate patterns, trends, and relationships in datasets. Python provides powerful libraries for visualization, with Matplotlib and Seaborn being among the most widely used.
+## Overview
 
-1. Matplotlib
+This repository contains various Data Visualization and Exploratory Data Analysis (EDA) projects developed using Python. The projects focus on extracting meaningful insights from datasets through statistical analysis, data preprocessing, and visual storytelling.
 
-Matplotlib is a versatile and low-level plotting library that provides detailed control over every element of a plot. It can be used to create a wide range of visualizations, including line charts, bar charts, histograms, scatter plots, and box plots.
+The repository demonstrates the use of charts, graphs, and analytical techniques to uncover trends, patterns, correlations, and business insights from real-world datasets.
 
-Key Features
+---
 
-Highly customizable plots including colors, labels, ticks, and legends
+## Objectives
 
-Ability to create multiple subplots in a single figure
+- Perform Exploratory Data Analysis (EDA)
+- Understand dataset characteristics
+- Identify trends and patterns
+- Visualize relationships between variables
+- Generate actionable insights through data storytelling
+- Build strong foundations in data analytics and visualization
 
-Integration with NumPy and Pandas for handling data
+---
 
-Supports exporting plots to various formats such as PNG, PDF, and SVG
+## Repository Structure
 
-Use Case: Matplotlib is ideal when fine-grained control is needed, or when creating highly customized visualizations for presentations or publications.
+```text
+Data_Visualization/
+│
+├── Exploratory_Data_Analysis.ipynb
+├── Walmart_Recruiting_set.ipynb
+├── Customer_support_data.csv
+├── data.csv
+│
+├── Visualization Outputs
+│   ├── Sales.png
+│   ├── bar_avg_pulse_by_duration.png
+│   ├── bar_total_bill_by_day.png
+│   ├── bar_total_bill_by_sex.png
+│   ├── hist_calories.png
+│   ├── hist_total_bill.png
+│   └── ...
+│
+└── README.md
+```
 
-2. Seaborn
+---
 
-Seaborn is a high-level statistical visualization library built on top of Matplotlib. It simplifies the creation of attractive and informative visualizations, especially for exploratory data analysis (EDA).
+## Technologies Used
 
-Key Features
+### Programming Language
+- Python
 
-Provides aesthetically pleasing default styles and color palettes
+### Data Analysis
+- Pandas
+- NumPy
 
-Simplifies visualization of statistical relationships between variables
+### Data Visualization
+- Matplotlib
+- Seaborn
+- Plotly
 
-Supports relational, categorical, and distribution plots
+### Development Environment
+- Jupyter Notebook
+- Google Colab
 
-Works seamlessly with Pandas DataFrames for direct plotting of columns
+---
 
-Use Case: Seaborn is ideal for quickly generating informative statistical graphics, exploring patterns, relationships, and distributions in datasets with minimal code.
+## Key Concepts Demonstrated
+
+### Exploratory Data Analysis (EDA)
+
+- Data Cleaning
+- Missing Value Analysis
+- Descriptive Statistics
+- Correlation Analysis
+- Outlier Detection
+- Feature Understanding
+
+### Data Visualization
+
+- Bar Charts
+- Histograms
+- Scatter Plots
+- Line Charts
+- Distribution Analysis
+- Comparative Visualizations
+
+---
+
+## Datasets Included
+
+### Customer Support Dataset
+
+Analysis of customer interactions and support performance metrics.
+
+Key Insights:
+- Customer satisfaction trends
+- Response time analysis
+- Support efficiency metrics
+
+### Walmart Recruiting Dataset
+
+Workforce and recruitment analytics.
+
+Key Insights:
+- Hiring trends
+- Candidate distributions
+- Recruitment performance metrics
+
+### Fitness and Health Dataset
+
+Analysis of exercise and health-related variables.
+
+Key Insights:
+- Pulse rate trends
+- Calorie expenditure analysis
+- Activity duration comparisons
+
+---
+
+## Sample Visualizations
+
+### Sales Analysis
+- Sales performance trends
+- Revenue comparisons
+- Business growth insights
+
+### Customer Analytics
+- Support response distributions
+- Customer behavior patterns
+
+### Health Analytics
+- Calories burned distribution
+- Pulse rate comparisons
+- Exercise duration analysis
+
+---
+
+## Data Analysis Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Statistical Analysis
+      │
+      ▼
+Data Visualization
+      │
+      ▼
+Insights & Conclusions
+```
+
+---
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Tejaswimadastu/Data_Visualization.git
+cd Data_Visualization
+```
+
+### Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn plotly jupyter
+```
+
+---
+
+## Running the Notebooks
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+Exploratory_Data_Analysis.ipynb
+```
+
+or
+
+```text
+Walmart_Recruiting_set.ipynb
+```
+
+and execute the cells to reproduce the analysis and visualizations.
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Statistical Analysis
+- Data Storytelling
+- Business Intelligence
+- Data Visualization
+- Insight Generation
+
+---
+
+## Applications
+
+- Business Analytics
+- Customer Behavior Analysis
+- Sales Performance Monitoring
+- Recruitment Analytics
+- Health and Fitness Analytics
+- Decision Support Systems
+
+---
+
+## Future Enhancements
+
+- Interactive dashboards using Streamlit
+- Power BI integration
+- Tableau dashboards
+- Advanced statistical modeling
+- Automated reporting
+- Real-time data visualization
+
+---
+
+## Results
+
+- Successfully analyzed multiple real-world datasets.
+- Generated meaningful visualizations and business insights.
+- Identified trends, distributions, and relationships between variables.
+- Demonstrated practical applications of data analytics and visualization techniques.
+
+---
+
+## Author
+
+**Tejaswi Madastu**
+
+GitHub: https://github.com/Tejaswimadastu
+
+---
+
+## License
+
+This repository is developed for educational, portfolio, and learning purposes.
